@@ -1,0 +1,8 @@
+x1=int(input("Enter x1 coordinate : "))
+x2=int(input("Enter x2 coordinate : "))
+y1=int(input("Enter y1 coordinate : "))
+y2=int(input("Enter y2 coordinate : "))
+d1=pow((x2-x1),2)
+d2=pow((y2-y1),2)
+dist=pow((d1+d2),.5)
+print(dist)
